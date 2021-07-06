@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 50px;
+}
+
+.oragne-color {
+  color: orange;
+}
+.flexible-container {
+  display: flex;
+  margin-top: 20px;
+}
+.half-width {
+  width: 50%;
+  padding: 2%;
+}
+.half-width img {
+  width: 60%;
+}
+.link-buttom {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  padding: 10px 40px;
+  color: white;
+  font-weight: 700;
+  border-radius: 50px;
+}
+.link-buttom a:hover {
+  background-color: yellow;
+}
+.banner {
+  background-image: url(images/Frame.png);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+/*----------------
+blog start recipies
+-----------------*/
+.blog {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+  padding-top: 5%;
+}
+.blog p {
+  padding: 15px;
+}
+.recipies-tittle {
+  text-align: center;
+  padding-top: 5%;
+}
+
+/*------------------
+flexbox start
+-----------------*/
+.flex-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.card {
+  background-color: white;
+  width: 100%;
+  height: 600px;
+  margin: 40px;
+  border-radius: 20px;
+  text-align: center;
+  padding: 20px;
+  width: 20%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-img {
+  height: 270px;
+  margin-bottom: 15px;
+  border-radius: 25px;
+  background-size: cover;
+  padding-bottom: 50px;
+}
+.car-1 {
+  background-image: url(images/Project\ Cover1.jpg);
+}
+.car-2 {
+  background-image: url(images/Project\ Cover.png);
+}
+.car-3 {
+  background-image: url(images/Project\ Cover.jpg);
+}
+.card p {
+  padding-bottom: 20px;
+  text-align: center;
+}
+.card a {
+  background-color: tomato;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+/*------------------
+flexbox End
+-----------------*/
+
+/*----------------
+follow starte
+----------------*/
+.follow-container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+  width: 80%;
+  height: auto;
+  margin: 50px auto;
+  padding: 15px 15px 0px 15px;
+}
+.follow-container {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+}
+.follow {
+  width: 500px;
+  padding: 20px;
+  text-align: center;
+}
+
+/*-----------
+bottom starte
+----------*/
+.bottom-container {
+  background-color: black;
+  text-align: center;
+  padding: 20px;
+}
+.tomatto-color {
+  color: tomato;
+}
+.grey-color {
+  color: grey;
+}
+.bottom-container p {
+  color: white;
+  margin: 20px;
+}
